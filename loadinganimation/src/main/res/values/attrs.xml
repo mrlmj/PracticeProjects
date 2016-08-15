@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveLoadingView">
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineMinHeight" format="dimension" />
+        <attr name="lineMaxHeight" format="dimension" />
+        <attr name="lineCount" format="integer" />
+        <attr name="lineBase" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="period" format="integer" />
+        <attr name="lineMargin" format="dimension" />
+    </declare-styleable>
+</resources>
